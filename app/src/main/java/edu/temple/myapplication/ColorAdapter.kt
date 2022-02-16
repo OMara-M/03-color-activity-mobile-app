@@ -10,7 +10,6 @@ import android.widget.TextView
 class ColorAdapter(_context: Context, _colors: Array<String>) : BaseAdapter() {
     val context = _context
     val colors = _colors
-    val selectedItem = -1
 
     override fun getCount(): Int {
         return colors.size
